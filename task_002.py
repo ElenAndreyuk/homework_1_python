@@ -4,4 +4,4 @@
 x = input('введите x ')
 y = input('введите y ')
 z = input('введите z ')
-print (not(x or y or z ) == (not x) and (not y) and (not z))
+print (not(x or y or z ) == ((not x) and (not y) and (not z)))
